@@ -5,7 +5,7 @@ public class Que2 {
      System.out.print("Enter a Year : ");
      int year = Year.nextInt();
         
-    if(year % 4 == 0){
+    if(((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0)){
         System.out.println(year + " Leap Year");
     }
     else {
