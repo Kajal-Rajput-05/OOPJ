@@ -1,14 +1,17 @@
+import java.util.*;
 
-public class Que2 {
-    public static void main(String[] args) {  
-        int [] arr1 = new int [] {1, 2, 3, 4, 5};  
-        int [] arr2 = new int [] {1, 2, 3 5}; 
-          
-        //boolean res = arrays.equal(arr1, arr2);
-            if (arr1 == arr2)
-                System.out.print("Equal");  
-            else
-                System.out.print("Not Equal");
-                        
-        }  
+public class Array1 {
+    public static void main(String[] args) {
+        int array1[]= {1, 2, 3, 4};
+        int array2[]= {1, 2, 3, 4};
+        
+        boolean isEqual = Arrays.equals(array1, array2);
+        
+        if(isEqual) {
+            System.out.println("Arrays are equal.");
+        } else {
+            System.out.println("Arrays are not equal.");
+        }
+    }
+}
     }  
